@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/bb0eec4803.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav id="navbar">
+                <ul>
+                       <li><a href="/">HOME</a></li>
+                       <li><a href="/about.html">ABOUT ME</a></li>
+                       <li><a href="/certificates.html">CERTIFICATES</a></li>
+                       <li><a href="/portfolio.html">PROJECT</a></li>
+                       <li><a href="/contact.html">CONTACT ME</a></li>
+                       <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            
+        </div>
+    </div>
+<div id="certificates">
+    <div class="container">
+        <h1 class="sub-title">My Certificates</h1>
+        <div class="certificates-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>HTML-PrepInsta</h2>
+                <p>Completed HTML-PrepInsta (October 2023).</p>
+                <a href="https://drive.google.com/file/d/1sjmRNwgRE_G4NBQvcu9hwRD4ymBuEXt0/view?usp=sharing">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-js"></i>
+                <h2>INTRODUCTION TO JAVASCRIPT-SoloLearn</h2>
+                <p>Completed INTRODUCTION TO JAVASCRIPT-SoloLearn
+                    (June 2023).</p>
+                <a href="https://drive.google.com/file/d/1W6aUPj1yWi4Tzitu0qCSno5sdZR3kLJ3/view?usp=sharing">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Foundations of User Experience (UX) Design – Google</h2>
+                <p>Completed Foundations of User Experience (UX) Design – Google 
+                    (Mar 2023).</p>
+                <a href="https://drive.google.com/file/d/1794pUZFpdZXJc3WMNPukn3TLLEdnxJVd/view?usp=sharing">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-republican"></i>
+                <h2> Entertainment Based Toys (Elephant)- Best Project Recognition 
+                    Certificate</h2>
+                <p>Entertainment Based Toys (Elephant)- Best Project Recognition 
+                    Certificate by Centre For Engineering Education Research 
+                    (Feb 2022). </p>
+                <a href="https://drive.google.com/file/d/1pQkv3tDi3aZN5aOKxzBLcyKRRHxR47nW/view?usp=sharing">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-certificate"></i>
+                <h2> FinTech Engineering Virtual Experience Program</h2>
+                <p>Participated in FinTech Engineering Virtual Experience Program
+                    by Goldman Sachs (Oct 2022).
+                    </p>
+                <a href="https://drive.google.com/file/d/1bHzSXJOPt12PSPADd1VpWf3Ep60dLubh/view?usp=sharing">Learn More</a>
+            </div>  
+        </div>
+    </div>
+</div>
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for( tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for( tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/bb0eec4803.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav id="navbar">
+                <ul>
+                       <li><a href="/">HOME</a></li>
+                       <li><a href="/about.html">ABOUT ME</a></li>
+                       <li><a href="/certificates.html">CERTIFICATES</a></li>
+                       <li><a href="/portfolio.html">PROJECT</a></li>
+                       <li><a href="/contact.html">CONTACT ME</a></li>
+                       <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            
+        </div>
+    </div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <!-- <img src="./images/user.png" > -->
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    I am Kashish Singhal. Right now I am pursing B.Tech in Information Technology from CMR College of Engineering and Technology.
+                    My current CGPA is 9.35. I am a hardworking and dedicated person. I am always ready to learn new things. 
+                    In the initial phases of my B.Tech journey, I have actively engaged in three diverse projects, each encompassing both software and hardware components.
+                    Apart from this, my college organised a swecha projects event in which I worked on a project named "Fruit Ripeness Detection using Opencv". 
+                    My short term goal is to get placed in a reputed company and my long term goal is to become a successful person in life.
+                    My hobbies are playing badminton, listening music and watching movies.
+                    My strengths are I am a multitasker, I am a quick learner and I am a team player.
+                    My weakness is my inablity to say no to people which put me under a lot of stress however I am learning to say no to people so that I can focus on more productive work.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>C language</span><br></li>
+                        <li><span>Python</span><br></li>
+                        <li><span>HTML</span><br></li>
+                        <li><span>CSS</span><br></li>
+                        <li><span>Java</span><br></li>
+                        <li><span>Data Structures</span><br></li>
+                        <li><span>DBMS</span><br></li>
+                        <li><span>SQL</span><br></li>
+                        <li><span>Basics of Machine Learning</span><br></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="projects">
+                    <ul>
+                       <li><span>Volumewizard: Gesture-Driven Sound Mastery</span><br><p>• Developed a Python and OpenCV-based hand gesture 
+                        recognition system for real-time volume and brightness control 
+                        using a webcam.
+                        • Enabled intuitive, hands-free interaction, showcasing proficiency 
+                        in Python programming and computer vision for innovative 
+                        human-computer communication.</p></li>
+                        <li><span>Entertainment Based Toy (Elephant toy) </span><br><p>• Analysed requirements of toy industry and designed an 
+                            entertainment toy for kids. 
+                            • The technology used is Arduino IDE and other equipment’s used 
+                            are Arduino UNO, Bluetooth module, ultrasonic sensor, wheels, 
+                            rechargeable battery, shafts, L293D motor driver. The main aim 
+                            for this project was to entertain the kid by its function. </p></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                       <li><span>2021-2025(persent)</span><br>CMR College of Engineering and Technology, JNTUH, Hyderabad. <br>B. Tech in Information Technology</li>
+                       <li><span>2019-2021</span><br>Narayana Junior College, Hyderabad. <br></li>
+                       <li><span>2018-2019</span><br>Pragati Vidya Niketan High School, Hyderabad. <br>SSC</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
